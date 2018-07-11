@@ -32,3 +32,9 @@ end
 
 
 
+
+
+choice = gets.chomp(). to_i
+
+case choice 
+when 1
