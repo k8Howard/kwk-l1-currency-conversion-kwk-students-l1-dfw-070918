@@ -32,9 +32,15 @@ end
 
 puts "How much money do you want to convert?"
 
-amount = 
+amount = gets.chomp().to_i
 
-choice = gets.chomp().to_i
+puts "Pick from the following menu:"
+puts ""
+puts ""
+puts ""
+
+
+
 
 case choice 
 when 1
@@ -54,7 +60,7 @@ when 7
 when 8 
   aud_to_usd(amount)
   
-  
+  choice = gets.chomp().to_i
   
   
   
