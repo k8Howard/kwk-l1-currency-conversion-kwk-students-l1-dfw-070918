@@ -63,8 +63,10 @@ when 7
   gbp_to_usd(amount)
 when 8 
   aud_to_usd(amount)
-  
-  
+else
+  puts "Invalid input,
+exiting..."
+end
   
   
   
