@@ -17,3 +17,18 @@ end
 def usd_to_gbp(amount)
   new_currency = amount * 0.76
 end
+
+def gbp_to_usd(amount)
+  new_currency = amount * 1.31
+end
+
+def usd_to_aud(amount)
+  new_currency = amount * 
+end
+
+def aud_to_usd(amount)
+  new_currency = amount * 0.86
+end
+
+
+
